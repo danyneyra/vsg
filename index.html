@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi primera web</title>
+    <script src="https://kit.fontawesome.com/102897330d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container-main">
+    <header>
+      <div class="menu-mobile">
+        <a onclick="openNav()" class="miclase" href="#"><i class="fa-solid fa-bars"></i></a>
+      </div>
+      <div class="container-logo">
+        <a class="logo" href="index.html"><img src="img/logo.png" alt=""></a>
+      </div>
+      <nav class="navbar">
+        <ul class="menu">
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Dónde Comprar</a></li>
+          <li><a href="#">Descargas</a></li>
+          <li><a href="contacto.html"></i> Contacto</a></li>
+        </ul>
+      </nav>
+      <div id="mobile-menu" class="overlay">
+        <div class="overlay-content">
+          <a onclick="closeNav()" href="#" class="close">&times;</a>
+          <a href="#">Productos</a>
+          <a href="#">Dónde Comprar</a>
+          <a href="#">Descargas</a>
+          <a href="contacto.html"></i> Contacto</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="seccion-principal">
+      <section class="banner">
+        <img class="banner1" src="img/banner.png" alt="">
+        <img src="img/banner-3.png" alt="">
+      </section>
+
+      <section class="categorias">
+        <div class="container-categorias">
+          <div class="item-categoria">
+            <img src="img/audifonos.png" alt="">
+          </div>
+          <div class="item-categoria">
+            <img src="img/mouse.png" alt="">
+          </div>
+        </div>
+      </section>
+
+      <section class="banner">
+        <img src="img/banner-2.png" alt="">
+      </section>
+
+      <!-- Sección de Trabajos 
+      <section>
+        <h1 style="text-align: center;">Trabajos</h1>
+        <div class="works">
+          <div class="items-works-container">
+            <div class="item-work">
+              <img src="img/img10.jpg" alt="">
+              <h3>Desarrollo Web</h3>
+              <p>Desarrolo de apps webs con React, JavaSccript, Html5, CSS.</p>
+              <a href="">Leer más...</a>
+            </div>
+            <div class="item-work">
+              <img src="img/img11.jpg" alt="">
+              <h3>Apps multiplataformas con Python</h3>
+              <p>Usando la herramienta Flutter se desarrolla apps multiplataforma para Android, iOS, Windows y Web App.</p>
+              <a href="">Leer más...</a>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      
+    </main>
+    <footer>
+      <div class="redes-sociales">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <div class="copyright">
+        <p>©Copyright 2024 VSG Todos los derechos reservados by Dany Daniel</p>
+      </div>
+    </footer>
+  </div>
+  <!---->    
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
